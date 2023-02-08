@@ -1,7 +1,6 @@
 import { Link, Route, Routes } from "react-router-dom";
 import Finish from "./Finish";
 import FormUser from "./FormUser";
-import HomePage from "./HomePage";
 import Instruction from "./Instructions";
 
 export default function Routers() {

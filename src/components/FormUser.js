@@ -3,9 +3,6 @@ import axios from 'axios'
 import React, { useState, useContext, useEffect } from 'react';
 import Field from './Field'
 import { useNavigate } from 'react-router-dom'
-import Finish from './Finish';
-import { userContext } from './UserContext'
-import Instruction from './Instructions';
 
 export default function FormUser() {
     var ans;
@@ -80,22 +77,6 @@ export default function FormUser() {
             setFinish(true)
         }
     }
-
-    // const styles = {
-    //     container: {
-
-    //         alignItems: 'center',
-    //         justifyContent: 'center',
-    //     },
-    //     button: {
-
-    //         cursor: 'pointer',
-    //     },
-    //     buttonDisabled: {
-
-    //         cursor: 'not-allowed',
-    //     },
-    // };
 
     useEffect(() => {
         const arr = []
